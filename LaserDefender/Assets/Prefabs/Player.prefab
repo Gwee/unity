@@ -47,6 +47,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -99,4 +100,4 @@ MonoBehaviour:
   playerProjectile: {fileID: 1644547580210025217, guid: 4a5521c5fadc447809f8b6a94eaaac22,
     type: 3}
   projectileSpeed: 20
-  projectileFiringPeriod: 0.1
+  projectileFiringPeriod: 0.2

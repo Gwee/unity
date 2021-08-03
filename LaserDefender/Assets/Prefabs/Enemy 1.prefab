@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3327043729223789406}
   - component: {fileID: 3327043729223789405}
   - component: {fileID: 4102115655611154168}
+  - component: {fileID: 5951101414665175107}
   m_Layer: 0
   m_Name: Enemy 1
   m_TagString: Untagged
@@ -96,4 +97,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveConfig: {fileID: 11400000, guid: 2d5d570d6f6194ab798e189d751d6355, type: 2}
-  moveSpeed: 9
+--- !u!114 &5951101414665175107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3327043729223789404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6880349ed254bc94e9d127e7f4d571e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class EnemyPathing : MonoBehaviour
 {
-    WaveConfig waveConfig;
-     List<Transform> waypoints;
+    [SerializeField] WaveConfig waveConfig;
+    List<Transform> waypoints;
     private int waypointIdx = 0;
 
     // Start is called before the first frame update
